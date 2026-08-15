@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buda Gigante de Ibiraçu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#hero">Inicio</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#motivos">Motivos para Conhecer</a></li>
+                    <li><a href="#fotos">Fotos</a></li>
+                    <li><a href="#roteiro">Roteiro de Visitação</a></li>
+                    <li><a href="#localizacao">Localização</a></li>
+                 </ul>
+            </nav>
+    </header>
+    <main>
+
+        <section class="hero" id="hero">
+            <h1 class="titulo-principal">Buda Gigante de Ibiraçu</h1>
+            <p class="descricao">O Buda Gigante de Ibiraçu é uma estátua monumental localizada no município de Ibiraçu, no estado do Espírito Santo, Brasil.<br> É uma das maiores estátuas de Buda do mundo e serve como um importante marco cultural e religioso.</p>
+            <video class="video" autoplay loop muted playsinline>
+                <source src="/video/video.mp4" type="video/mp4">
+            </video>
+
+            <div class="overlay"></div>
+        </section>
+        
+            <section class="sobre" id="sobre">
+                <div class="sobre-texto">
+                    <h2 class="subtitulo">Sobre</h2>
+                    <p class="descricao">A estátua foi inaugurada em 2019 e tem 35 metros de altura.É feita de concreto e representa um símbolo de paz e espiritualidade. </p>
+                    <p class="descricao"> O Buda Gigante de Ibiraçu atrai visitantes de todo o mundo, que vêm para admirar sua imponência e vivenciar a atmosfera serena que o cerca.</p>
+                </div>
+                <img src="/images/sem-fundo.png" alt="Buda Gigante de Ibiraçu" width="600" id="buda">
+            </section>
+            <section class="motivos" id="motivos">
+                <div class="separador"></div>
+                <h2 class="subtitulo">Motivos para Conhecer</h2>
+                <ul class="cards-motivos">
+                    <li class="motivo">Admire a escala impressionante e a maestria artesanal da estátua.</li>
+                    <li class="motivo">Vivencie a atmosfera de paz e espiritualidade que envolve o local.</li>
+                    <li class="motivo">Desfrute das vistas panorâmicas do deck de observação.</li>
+                </ul>
+                <div class="separador"></div>
+            </section>
+            <section class="fotos" id="fotos">
+                <h2 class="subtitulo">Fotos</h2>
+                
+                <div class="carrosel-3d-wrapper">
+                    <button class="btn-carrosel btn-anterior" id="btn-anterior" aria-label="Foto anterior">❮</button>
+                    
+                    <div class="fotos-container" id="fotos-track">
+                        <!-- Adicione a classe 'slide' a cada imagem -->
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7mrS6eJXpAcNjOVoZQxLhasAJUBpYvFJwdGo13RH8JQ&s=10" alt="Vista Lateral" class="slide">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCtjtYBG2muYLoKsrZeApZhorVsYALfktgCBi5bfejxA&s=10" alt="Vista Frontal" class="slide">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmOvlcq3LRQeparc6pKjMj0vkEbAIiFA0KGfwRz7a3QA&s=10" alt="Vista Noturna 1" class="slide">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUkbIjMraDxdJCLTDREDoXGw55EPNHnwxc2uqn2RmPyg&s=10" alt="Vista Noturna 2" class="slide">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThtbf3Ni-pBhr7gL6ZYPrc1AIa81IAEqH1H__n8vQDiQ&s=10" alt="Vista Noturna 3" class="slide">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoW7i0druOwVSbI4HOjF2uwHuaVSGEHOvXdWAu2hkvKw&s=10" alt="Vista Noturna 4" class="slide">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPFSDyHuNg4hRq9FBZEx3L4CwwAoL_NmmrsliXgOGEQw&s=10" alt="Vista Noturna 5" class="slide">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcfnaB74IgHSMg0VSJTPSR3PJ0q1OYvh9F6om9RIQRsw&s=10" alt="Vista Noturna 6" class="slide">
+                    </div>
+                    
+                    <button class="btn-carrosel btn-proximo" id="btn-proximo" aria-label="Próxima foto">❯</button>
+                </div>
+                <div class="separador"></div>
+            </section>
+            <section class="meu-roteiro" id="roteiro">
+                <div class="conteudo-roteiro">
+                    <h2 class="subtitulo">Roteiro de Visitação</h2>
+                    <p class="descricao">Aqui está uma sugestão de roteiro para visitar o Buda Gigante de Ibiraçu:</p>
+                    <ol class="roteiro-itens">
+                        <li class="roteiro-item">Chegue ao local e reserve um momento para apreciar a paisagem ao redor.</li>
+                        <li class="roteiro-item">Dê uma volta em torno da base da estátua para ver os detalhes intricados e o artesanato.</li>
+                        <li class="roteiro-item">Visite o templo próximo ou a área de meditação para experimentar a atmosfera espiritual.</li>
+                        <li class="roteiro-item">Desfrute das vistas panorâmicas do deck de observação.</li>
+                    </ol>
+                </div>
+                <div class="separador"></div>
+            </section>  
+            <section class="localizacao" id="localizacao">
+                <div class="conteudo-loc">
+                    <h2 class="subtitulo">Localização</h2>
+                    <p class="descricao">O Buda Gigante de Ibiraçu está localizado no município de Ibiraçu, no estado do Espírito Santo, Brasil. É facilmente acessível por estrada e é um destino popular tanto para turistas quanto para devotos.</p>
+                    <p><strong>Endereço: </strong>BR-101, 740 - Pendanga, Ibiraçu - ES, 29670-000</p>
+                </div>
+                <iframe title="Mapa com a localização do Buda Gigante de Ibiraçu" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.420847409118!2d-40.39134842515168!3d-19.864443636269698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb7940069b730bd%3A0x35597fe0fad97c9b!2sBR-101%2C%20740%20-%20Pendanga%2C%20Ibira%C3%A7u%20-%20ES%2C%2029670-000%2C%20Brasil!5e0!3m2!1spt-BR!2sus!4v1786056238691!5m2!1spt-BR!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </section>
+    </main>
+    <footer>
+        <p class="rodape">&copy; 2026 Trabalho acadêmico ADS. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>
+
+
